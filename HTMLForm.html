@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body body style="background-color: grey"></body>
+    <h1>Forms in HTML</h1>
+    <form action="">
+        <label for="uname">Enter Name:</label>
+        <input type="text" name="name1" id="uname" size="40" maxlength="112" placeholder="Enter your first name" required> 
+
+        <br><br>
+
+        <label for="pass">Enter Password:</label>
+        <input type="password" name="pass" id="pass" placeholder="Enter password" required>
+
+        <br><br>
+
+        <label for="uname">Enter your Email:</label>
+        <input type="text" name="name1" id="uname" size="40" maxlength="" placeholder="Email" required>
+
+        <br><br>
+
+        <label for="pass">Enter Password:</label>
+        <input type="password" name="pass" id="pass" placeholder="Enter password" required>
+
+        <br><br>
+
+        <label for="feedback">Enter Feedback:</label>
+        <textarea name="feedback" id="feedback" rows="7" cols="50" placeholder="Enter your feedback"></textarea>
+
+        <br><br>
+        <label for="hobby">Choose your hobby:</label>
+        <input type="checkbox" name="hobby" id="hobby" value="Cook" checked>Cooking
+        <input type="checkbox" name="hobby" id="hobby" value="Sing">Singing
+        <input type="checkbox" name="hobby" id="hobby" value="Dance">Dancing
+
+        <br><br>
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" id="gender" value="Male">Male
+        <input type="radio" name="gender" id="gender" value="Female">Female
+        <input type="radio" name="gender" id="gender" value="Other">Other
+
+        <br><br>
+        <label for="pro">Choose your Programme:</label>
+        <input type="checkbox" name="pro" id="btech" value="btech">
+        <label for="btech">B.Tech</label>
+        <input type="checkbox" name="pro" id="bca" value="bca">
+        <label for="bca">BCA</label>
+        <input type="checkbox" name="pro" id="bba" value="bba">
+        <label for="bba">BBA</label>
+
+        <br><br>
+        <select name="statesel" id="statesel" size="">
+            <option value="state">Choose your State:</option>
+            <option value="dl">Delhi</option>
+            <option value="punjab">Punjab</option>
+            <option value="kr">Kerala</option>
+            <option value="hp">Himachal Pradesh</option>
+            <option value="hr">Haryana</option>
+        </select>
+
+        <br><br>
+        <label for="filesel">Choose File:</label>
+        <input type="file" name="filesel" id="filesel">
+
+        <br><br>
+        <input type="Submit" name="submitform" value="Submit Form">
+        <input type="reset" name="resetform" id="resetform" value="Reset Form">
+        <br><br>
+        <input type="image" name="imgbtn" id="imgbtn" src="Screenshot 2025-01-21 112644.png" width="72" height="28">
+    </form>
+</body>
+</html>
